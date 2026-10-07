@@ -1,6 +1,8 @@
-# ARM For Modelers — GitHub Pages starter site
+# EAMxx atmospheric river demo
 
-This is a plain HTML/CSS package hosted at: https://kaizhangpnl.github.io/e3sm-ar-demo/index.html 
+Plain HTML/CSS pages for atmospheric-river figures, case-study movies, and related links.
+
+Hosted at: https://kaizhangpnl.github.io/e3sm-ar-demo/index.html 
 
 ## Files
 
@@ -8,7 +10,7 @@ This is a plain HTML/CSS package hosted at: https://kaizhangpnl.github.io/e3sm-a
 - `figures.html` — displayed as **Figures** in the navigation. The three plots are in `figures/`.
 - `tools.html` — displayed as **Movies** in the navigation. The four case-study animations are in `movies/`.
 - `resources.html` — displayed as **Resources** in the navigation
-- `about.html` — optional About page (not shown in the four-item navigation, to match the reference screenshots)
+- `about.html` — optional About page (not shown in the four-item navigation)
 - `css/style.css` — shared styling
 - `.nojekyll` — tells GitHub Pages to serve the files directly without Jekyll processing
 
@@ -29,14 +31,13 @@ All internal navigation uses relative links, so the site works correctly from a 
 
 ## Visual design
 
-The CSS reproduces the reference design with:
+Shared styling in `css/style.css`:
 
-- white background and compact top navigation;
-- centered teal page headings (`#3d7684`) with a short teal rule;
-- dark charcoal text (`#332d2a`);
-- orange accent links/rules (`#c2603d`);
-- warm gray section separators (`#dad1c7`);
-- Arial for body content and Open Sans for the site/page titles;
+- warm paper background (`#f6f4f0`) and a compact sticky header;
+- left-aligned page titles in Open Sans, with a short teal rule (`#3d7684`, 40×3px);
+- charcoal text (`#2c2825`) and a muted caption color;
+- orange accent for external links (`#c2603d`);
+- Open Sans for body text and titles;
 - the Home / Figures / Movies / Resources navigation and dot separators;
 - responsive behavior for tablets and phones.
 
