@@ -13,7 +13,7 @@
 <body class="home-page">
   <header class="site-header">
     <div class="header-inner">
-      <a class="site-title" href="index.html">E3SM</a>
+      <a class="site-title" href="index.html">Energy Exascale Earth System Model</a>
       <div class="site-nav-wrap">
         <nav aria-label="Main navigation">
           <ul class="site-nav">
@@ -40,14 +40,11 @@
     </section>
 
     <section class="home-intro">
-      <p>Atmospheric rivers (ARs) are long, narrow corridors of strong horizontal water-vapor transport, usually embedded in the warm sector of extratropical cyclones. They are commonly identified from integrated vapor transport (IVT), often with a practical threshold near 250 kg m⁻¹ s⁻¹ together with geometric constraints (length of order 2000 km and a large length-to-width ratio). Although they occupy only a small fraction of the globe at any time, they account for a large share of poleward moisture transport and of extreme precipitation where they make landfall, especially along west coasts.</p>
+      <p>Atmospheric rivers (ARs) organize a large part of the poleward moisture flux in the extratropical atmosphere into long, narrow corridors, usually in the warm sector of extratropical cyclones. At landfall they supply much of the cool-season precipitation and mountain snowpack along west coasts, including western North America, western Europe, and parts of South America. The strongest events produce flooding, landslides, and rain-on-snow runoff. Because the transport is the product of column moisture and the horizontal wind, AR intensity responds both to thermodynamic moistening and to the structure of the storm track and jet. How an atmosphere model represents that product therefore bears on its water cycle, its extremes, and its moisture and energy budgets. EAMxx, the atmosphere component used in E3SM climate integrations, is examined here with that question in mind.</p>
 
-      <p>They matter for both the global water cycle and regional hydroclimate. ARs supply a substantial fraction of cool-season precipitation and snowpack in places such as western North America, western Europe, and parts of South America, while the strongest events drive flooding, landslides, and rain-on-snow runoff. Their intensity is tightly linked to column moisture and low-level winds, so they are sensitive both to thermodynamic moistening and to changes in storm tracks and jet structure.</p>
+      <p>The unresolved issue for EAMxx is whether a difference in detected frequency, regional occurrence, or persistence reflects a difference in moisture transport and precipitation, or only a difference in how often the chosen threshold is crossed. Global-mean precipitation and conventional storm-track metrics do not separate those possibilities. They average AR and non-AR conditions together, and they do not show whether a precipitation difference lies inside the detected object. A long Eulerian spell at a grid cell is likewise ambiguous. It can be produced by a slow-moving AR, by successive objects, or by IVT that remains only slightly above the threshold. Reanalysis IVT and observed precipitation do not remove the ambiguity: the analyzed wind and humidity carry their own uncertainty, and precipitation is attributed to an AR only after a detector has been applied. Because the detector is a nonlinear threshold on a transported field, a small bias in moisture or wind can change object frequency even when the circulation is otherwise similar.</p>
 
-      <p>EAMxx is the atmosphere component used for E3SM climate integrations, including high-resolution and exascale configurations. Whether the model produces realistic AR frequency, intensity, width, landfall, and associated precipitation is a direct test of its moisture transport, extratropical cyclone dynamics, boundary-layer winds, and orographic precipitation. Biases in these features affect simulated water resources, extremes, and the atmospheric moisture and energy budgets. Diagnostics of AR objects, IVT distributions, vertical moisture-flux profiles, and column moisture budgets therefore provide a process-level check on EAMxx that global-mean precipitation or storm-track metrics alone do not.</p>
-      <p> <p>  
-      <p>   <p>  
-      <p>   <p>  
+      <p> Here we present a demo of how we analyse AR in EAMxx.  Maps of occurrence frequency and of maximum Eulerian spell duration show where two configurations differ in how often and for how long AR conditions are present. Regional distributions of grid-cell frequency, with area-weighted medians and interquartile ranges within latitude bands and ocean basins, indicate whether a difference is a shift of the typical value or a change in the spread. Case-study sequences for the North Pacific, North Atlantic, Southeast Pacific, and South Atlantic show the detected mask together with column water vapor and the precipitation associated with the AR. These comparisons suggest where two simulatios diverge in occurrence, duration, and the moisture and precipitation fields inside the objects. The frequency and spell-duration comparisons are shown on the <a href="figures.html">Figures</a> page, and the case studies on the <a href="tools.html">Movies</a> page.</p>
     </section>
     
     
