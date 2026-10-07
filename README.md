@@ -1,6 +1,6 @@
 # ARM For Modelers — GitHub Pages starter site
 
-This is a plain HTML/CSS package hosted at: https://kaizhangpnl.github.io/arm-for-modelers/index.html 
+This is a plain HTML/CSS package hosted at: https://kaizhangpnl.github.io/e3sm-ar-demo/index.html 
 
 ## Files
 
