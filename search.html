@@ -58,17 +58,52 @@
   {
     "title": "Atmospheric River Analysis in EAMxx",
     "url": "index.html",
-    "text": "Atmospheric River Analysis in EAMxx Atmospheric rivers (ARs) organize a large part of the poleward moisture flux in the extratropical atmosphere into long, narrow corridors, usually in the warm sector of extratropical cyclones. At landfall they supply much of the cool-season precipitation and mountain snowpack along west coasts, including western North America, western Europe, and parts of South America. The strongest events produce flooding, landslides, and rain-on-snow runoff. Because the transport is the product of column moisture and the horizontal wind, AR intensity responds both to thermodynamic moistening and to the structure of the storm track and jet. How an atmosphere model represents that product therefore bears on its water cycle, its extremes, and its moisture and energy budgets. EAMxx, the atmosphere component used in E3SM, is examined here with that question in mind. The unresolved issue for EAMxx is whether a difference in detected frequency, regional occurrence, or persistence reflects a difference in moisture transport and precipitation, or only a difference in how often the chosen threshold is crossed. Global-mean precipitation and conventional storm-track metrics do not separate those possibilities. They average AR and non-AR conditions together, and they do not show whether a precipitation difference lies inside the detected object. A long Eulerian spell at a grid cell is likewise ambiguous. It can be produced by a slow-moving AR, by successive objects, or by IVT that remains only slightly above the threshold. Reanalysis IVT and observed precipitation do not remove the ambiguity: the analyzed wind and humidity carry their own uncertainty, and precipitation is attributed to an AR only after a detector has been applied. Because the detector is a nonlinear threshold on a transported field, a small bias in moisture or wind can change object frequency even when the circulation is otherwise similar. Here we present a demo of how we analyse AR in EAMxx. Maps of occurrence frequency and of maximum Eulerian spell duration show where two configurations differ in how often and for how long AR conditions are present. Regional distributions of grid-cell frequency, with area-weighted medians and interquartile ranges within latitude bands and ocean basins, indicate whether a difference is a shift of the typical value or a change in the spread. Case-study sequences for the North Pacific, North Atlantic, Southeast Pacific, and South Atlantic show the detected mask together with column water vapor and the precipitation associated with the AR. These comparisons suggest where two simulations diverge in occurrence, duration, and the moisture and precipitation fields inside the objects. Figures — occurrence frequency, regional distributions, and maximum spell duration for CTRL and TEST. Movies — case studies for the North Pacific, North Atlantic, Southeast Pacific, and South Atlantic. Resources — catalogs, reanalysis integrated vapor transport, forecast sites, and recent news."
+    "text": "Atmospheric River Analysis in EAMxx Atmospheric rivers (ARs) organize a large part of the poleward moisture flux in the extratropical atmosphere into long, narrow corridors, usually in the warm sector of extratropical cyclones. At landfall they supply much of the cool-season precipitation and mountain snowpack along west coasts, including western North America, western Europe, and parts of South America. The strongest events produce flooding, landslides, and rain-on-snow runoff. Because the transport is the product of column moisture and the horizontal wind, AR intensity responds both to thermodynamic moistening and to the structure of the storm track and jet. How an atmosphere model represents that product therefore bears on its water cycle, its extremes, and its moisture and energy budgets. EAMxx, the atmosphere component used in E3SM, is examined here with that question in mind. The unresolved issue for EAMxx is whether a difference in detected frequency, regional occurrence, or persistence reflects a difference in moisture transport and precipitation, or only a difference in how often the chosen threshold is crossed. Global-mean precipitation and conventional storm-track metrics do not separate those possibilities. They average AR and non-AR conditions together, and they do not show whether a precipitation difference lies inside the detected object. A long Eulerian spell at a grid cell is likewise ambiguous. It can be produced by a slow-moving AR, by successive objects, or by IVT that remains only slightly above the threshold. Reanalysis IVT and observed precipitation do not remove the ambiguity: the analyzed wind and humidity carry their own uncertainty, and precipitation is attributed to an AR only after a detector has been applied. Because the detector is a nonlinear threshold on a transported field, a small bias in moisture or wind can change object frequency even when the circulation is otherwise similar. Here we present a demo of how we analyse AR in EAMxx. Maps of occurrence frequency and of maximum Eulerian spell duration show where two configurations differ in how often and for how long AR conditions are present. Regional distributions of grid-cell frequency, with area-weighted medians and interquartile ranges within latitude bands and ocean basins, indicate whether a difference is a shift of the typical value or a change in the spread. Case-study sequences for the North Pacific, North Atlantic, Southeast Pacific, and South Atlantic show the detected mask together with column water vapor and the precipitation associated with the AR. These comparisons suggest where two simulations diverge in occurrence, duration, and the moisture and precipitation fields inside the objects. Occurrence frequency — full-record maps for CTRL and TEST, and their difference. Regional distributions — grid-cell frequency by latitude band and ocean basin. Spell duration — maximum Eulerian spell length for CTRL and TEST. Movies — separate case studies for the North Pacific, North Atlantic, Southeast Pacific, and South Atlantic. Resources — catalogs, reanalysis integrated vapor transport, forecast sites, and recent news."
   },
   {
     "title": "Figures",
     "url": "figures.html",
-    "text": "Figures F01 AR frequency comparison Maps of full-record atmospheric river occurrence frequency in percent for CTRL and TEST, and their difference in percentage points. F16 Regional AR frequency beeswarm Beeswarm plots of atmospheric river frequency by grid cell for CTRL and TEST, grouped by latitude band and by Pacific, Atlantic, and Indian longitude sector. Area-weighted medians and interquartile ranges are marked. F19 Maximum spell duration Maps of maximum Eulerian atmospheric river spell duration in hours for CTRL and TEST, and their difference. Gray marks cells with no observed spell."
+    "text": "Figures Each figure category is on its own page. Occurrence frequency F01. Maps of full-record atmospheric river occurrence frequency in percent for CTRL and TEST, and their difference in percentage points. Regional distributions F16. Beeswarm plots of atmospheric river frequency by grid cell for CTRL and TEST, grouped by latitude band and by Pacific, Atlantic, and Indian longitude sector. Spell duration F19. Maps of maximum Eulerian atmospheric river spell duration in hours for CTRL and TEST, and their difference."
+  },
+  {
+    "title": "Occurrence frequency",
+    "url": "frequency.html",
+    "text": "Occurrence frequency Frequency Regions Duration F01 AR frequency comparison Maps of full-record atmospheric river occurrence frequency in percent for CTRL and TEST, and their difference in percentage points."
+  },
+  {
+    "title": "Regional distributions",
+    "url": "regional.html",
+    "text": "Regional distributions Frequency Regions Duration F16 Regional AR frequency beeswarm Beeswarm plots of atmospheric river frequency by grid cell for CTRL and TEST, grouped by latitude band and by Pacific, Atlantic, and Indian longitude sector. Area-weighted medians and interquartile ranges are marked."
+  },
+  {
+    "title": "Spell duration",
+    "url": "duration.html",
+    "text": "Spell duration Frequency Regions Duration F19 Maximum spell duration Maps of maximum Eulerian atmospheric river spell duration in hours for CTRL and TEST, and their difference. Gray marks cells with no observed spell."
   },
   {
     "title": "Movies",
     "url": "tools.html",
-    "text": "Movies M03 North Pacific case study Animated North Pacific case study with mask class and outline, TVQ, and CTRL PRECT_AR. M05 North Atlantic case study Animated North Atlantic case study with mask class and outline, TVQ, and CTRL PRECT_AR. M07 Southeast Pacific case study Animated Southeast Pacific case study with mask class and outline, TVQ, and CTRL PRECT_AR. M09 South Atlantic case study Animated South Atlantic case study with mask class and outline, TVQ, and CTRL PRECT_AR."
+    "text": "Movies Each case study is on its own page. North Pacific M03. Animated case study with mask class and outline, TVQ, and CTRL PRECT_AR. North Atlantic M05. Animated case study with mask class and outline, TVQ, and CTRL PRECT_AR. Southeast Pacific M07. Animated case study with mask class and outline, TVQ, and CTRL PRECT_AR. South Atlantic M09. Animated case study with mask class and outline, TVQ, and CTRL PRECT_AR."
+  },
+  {
+    "title": "North Pacific case study",
+    "url": "movie-north-pacific.html",
+    "text": "North Pacific case study North Pacific North Atlantic Southeast Pacific South Atlantic M03 North Pacific case study Animated North Pacific case study with mask class and outline, TVQ, and CTRL PRECT_AR."
+  },
+  {
+    "title": "North Atlantic case study",
+    "url": "movie-north-atlantic.html",
+    "text": "North Atlantic case study North Pacific North Atlantic Southeast Pacific South Atlantic M05 North Atlantic case study Animated North Atlantic case study with mask class and outline, TVQ, and CTRL PRECT_AR."
+  },
+  {
+    "title": "Southeast Pacific case study",
+    "url": "movie-southeast-pacific.html",
+    "text": "Southeast Pacific case study North Pacific North Atlantic Southeast Pacific South Atlantic M07 Southeast Pacific case study Animated Southeast Pacific case study with mask class and outline, TVQ, and CTRL PRECT_AR."
+  },
+  {
+    "title": "South Atlantic case study",
+    "url": "movie-south-atlantic.html",
+    "text": "South Atlantic case study North Pacific North Atlantic Southeast Pacific South Atlantic M09 South Atlantic case study Animated South Atlantic case study with mask class and outline, TVQ, and CTRL PRECT_AR."
   },
   {
     "title": "Resources",
@@ -78,7 +113,7 @@
   {
     "title": "About",
     "url": "about.html",
-    "text": "About This demo collects atmospheric-river diagnostics for EAMxx: occurrence frequency, regional distributions, spell duration, and four basin case studies. On this site Figures compare CTRL and TEST frequency and maximum spell duration. Movies show the detected mask, column water vapor, and AR precipitation for four basins. Resources point to catalogs, reanalysis integrated vapor transport, and community forecast sites."
+    "text": "About This demo collects atmospheric-river diagnostics for EAMxx: occurrence frequency, regional distributions, spell duration, and four basin case studies. On this site Occurrence frequency, regional distributions, and spell duration are separate figure pages. Movies are separate case-study pages for four basins. Each one shows the detected mask, column water vapor, and AR precipitation. Resources point to catalogs, reanalysis integrated vapor transport, and community forecast sites."
   }
 ]
   </script>
@@ -86,7 +121,14 @@
     const pageUrls = [
       "index.html",
       "figures.html",
+      "frequency.html",
+      "regional.html",
+      "duration.html",
       "tools.html",
+      "movie-north-pacific.html",
+      "movie-north-atlantic.html",
+      "movie-southeast-pacific.html",
+      "movie-south-atlantic.html",
       "resources.html",
       "about.html"
     ];

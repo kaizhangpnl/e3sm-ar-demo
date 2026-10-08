@@ -149,6 +149,7 @@ input:focus-visible {
 
 .home-page .page-heading,
 .links-page .page-heading,
+.catalog-page .page-heading,
 .about-page .page-heading,
 .search-page .page-heading {
   width: min(var(--prose), calc(100% - 56px));
@@ -204,6 +205,38 @@ input:focus-visible {
   color: var(--teal);
   font-weight: 600;
   text-underline-offset: 3px;
+}
+
+.section-nav {
+  width: min(var(--figure-max), calc(100% - 56px));
+  margin: 22px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  row-gap: 8px;
+}
+
+.section-nav a {
+  color: #5c564f;
+  font-size: 15px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.section-nav a:hover,
+.section-nav a:focus-visible {
+  color: var(--ink);
+}
+
+.section-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  box-shadow: inset 0 -2px 0 var(--teal);
+}
+
+.section-nav + .figures-content,
+.section-nav + .movies-content {
+  margin-top: 28px;
 }
 
 /* Figures --------------------------------------------------------------- */
@@ -490,6 +523,7 @@ input:focus-visible {
 
 .home-page .site-footer,
 .links-page .site-footer,
+.catalog-page .site-footer,
 .about-page .site-footer,
 .search-page .site-footer {
   width: min(var(--prose), calc(100% - 56px));
@@ -570,8 +604,10 @@ input:focus-visible {
   .page-heading,
   .home-page .page-heading,
   .links-page .page-heading,
+  .catalog-page .page-heading,
   .about-page .page-heading,
   .search-page .page-heading,
+  .section-nav,
   .home-intro,
   .figures-content,
   .movies-content,
@@ -581,6 +617,7 @@ input:focus-visible {
   .site-footer,
   .home-page .site-footer,
   .links-page .site-footer,
+  .catalog-page .site-footer,
   .about-page .site-footer,
   .search-page .site-footer {
     width: calc(100% - 40px);

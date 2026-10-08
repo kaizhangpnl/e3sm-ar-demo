@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About the EAMxx atmospheric river demo.">
-  <title>About | EAMxx Atmospheric Rivers</title>
+  <meta name="description" content="Southeast Pacific atmospheric river case study.">
+  <title>Southeast Pacific case study | EAMxx Atmospheric Rivers</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="about-page">
+<body class="movies-page">
   <header class="site-header">
     <div class="header-inner">
       <a class="site-title" href="index.html">Energy Exascale Earth System Model</a>
@@ -19,7 +19,7 @@
           <ul class="site-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="figures.html">Figures</a></li>
-            <li><a href="tools.html">Movies</a></li>
+            <li><a class="active" href="tools.html">Movies</a></li>
             <li><a href="resources.html">Resources</a></li>
           </ul>
         </nav>
@@ -35,18 +35,23 @@
 
   <main>
     <section class="page-heading">
-      <h1>About</h1>
+      <h1>Southeast Pacific case study</h1>
       <div class="title-rule" aria-hidden="true"></div>
     </section>
 
-    <section class="about-content">
-      <p>This demo collects atmospheric-river diagnostics for EAMxx: occurrence frequency, regional distributions, spell duration, and four basin case studies.</p>
-      <h2>On this site</h2>
-      <ul>
-        <li><a href="frequency.html">Occurrence frequency</a>, <a href="regional.html">regional distributions</a>, and <a href="duration.html">spell duration</a> are separate figure pages.</li>
-        <li><a href="tools.html">Movies</a> are separate case-study pages for four basins. Each one shows the detected mask, column water vapor, and AR precipitation.</li>
-        <li>Resources point to catalogs, reanalysis integrated vapor transport, and community forecast sites.</li>
-      </ul>
+    <nav class="section-nav" aria-label="Case studies">
+      <a href="movie-north-pacific.html">North Pacific</a>
+      <a href="movie-north-atlantic.html">North Atlantic</a>
+      <a class="active" href="movie-southeast-pacific.html" aria-current="page">Southeast Pacific</a>
+      <a href="movie-south-atlantic.html">South Atlantic</a>
+    </nav>
+
+    <section class="movies-content">
+      <figure class="movie-item">
+        <h2>M07 Southeast Pacific case study</h2>
+        <img src="movies/M07_southeast_pacific_case_study.gif" width="2145" height="645" alt="M07 Southeast Pacific case study">
+        <figcaption>Animated Southeast Pacific case study with mask class and outline, TVQ, and CTRL PRECT_AR.</figcaption>
+      </figure>
     </section>
   </main>
   <footer class="site-footer">

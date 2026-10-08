@@ -6,9 +6,11 @@ Hosted at: https://kaizhangpnl.github.io/e3sm-ar-demo/index.html
 
 ## Files
 
-- `index.html` — Home
-- `figures.html` — displayed as **Figures** in the navigation. The three plots are in `figures/`.
-- `tools.html` — displayed as **Movies** in the navigation. The four case-study animations are in `movies/`.
+- `index.html` — Home. The introduction links to the figure and movie pages.
+- `figures.html` — displayed as **Figures** in the navigation. Lists the three figure pages.
+- `frequency.html`, `regional.html`, `duration.html` — one figure category each. The plots are in `figures/`.
+- `tools.html` — displayed as **Movies** in the navigation. Lists the four case-study pages.
+- `movie-north-pacific.html`, `movie-north-atlantic.html`, `movie-southeast-pacific.html`, `movie-south-atlantic.html` — one case study each. The animations are in `movies/`.
 - `resources.html` — displayed as **Resources** in the navigation
 - `about.html` — optional About page (not shown in the four-item navigation)
 - `css/style.css` — shared styling
